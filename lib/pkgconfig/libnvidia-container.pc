@@ -1,0 +1,11 @@
+prefix=/home/apps/centos7/enroot-deps/libnvidia-container/1.3.1
+exec_prefix=/home/apps/centos7/enroot-deps/libnvidia-container/1.3.1
+libdir=/home/apps/centos7/enroot-deps/libnvidia-container/1.3.1/lib
+includedir=/home/apps/centos7/enroot-deps/libnvidia-container/1.3.1/include
+
+Name: libnvidia-container
+Description: NVIDIA container library
+Version: 1.3.1
+Libs: -L${libdir} -lnvidia-container
+Libs.private: -L/home/apps/centos7/enroot-deps/libcap/2.46/lib64 -ldl -lcap -L/home/apps/centos7/enroot-deps/libseccomp/2.5.1/lib -lseccomp
+Cflags: -I${includedir}

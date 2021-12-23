@@ -1,0 +1,14 @@
+prefix=/home/apps/centos7/enroot-deps/jq/1.6
+exec_prefix=/home/apps/centos7/enroot-deps/jq/1.6
+libdir=/home/apps/centos7/enroot-deps/jq/1.6/lib
+includedir=/home/apps/centos7/enroot-deps/jq/1.6/include
+datarootdir=/home/apps/centos7/enroot-deps/jq/1.6/share
+datadir=/home/apps/centos7/enroot-deps/jq/1.6/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.1.3
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+prefix=/home/apps/centos7/enroot-deps/libcap/2.46
+exec_prefix=/home/apps/centos7/enroot-deps/libcap/2.46
+libdir=/home/apps/centos7/enroot-deps/libcap/2.46/lib64
+includedir=/home/apps/centos7/enroot-deps/libcap/2.46/include
+
+Name: libcap
+Description: libcap - linux capabilities library
+Version: 2.46
+Libs: -L${libdir} -lcap
+Libs.private: 
+Cflags: -I${includedir}

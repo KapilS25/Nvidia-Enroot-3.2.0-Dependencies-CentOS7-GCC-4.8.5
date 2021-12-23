@@ -1,0 +1,10 @@
+prefix=/home/apps/centos7/enroot-deps/libfuse-fuse/3.10.1
+libdir=${prefix}/lib64
+includedir=${prefix}/include
+
+Name: fuse3
+Description: Filesystem in Userspace
+Version: 3.10.1
+Libs: -L${libdir} -lfuse3 -lpthread
+Libs.private: -ldl -pthread -lrt
+Cflags: -I${includedir}/fuse3

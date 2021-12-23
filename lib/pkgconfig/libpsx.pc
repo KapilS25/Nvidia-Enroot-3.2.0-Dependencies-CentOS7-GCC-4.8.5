@@ -1,0 +1,11 @@
+prefix=/home/apps/centos7/enroot-deps/libcap/2.46
+exec_prefix=/home/apps/centos7/enroot-deps/libcap/2.46
+libdir=/home/apps/centos7/enroot-deps/libcap/2.46/lib64
+includedir=/home/apps/centos7/enroot-deps/libcap/2.46/include
+
+Name: libpsx
+Description: libpsx - linux posix syscall API for pthreads
+Version: 2.46
+Libs: -L${libdir} -lpsx -lpthread -Wl,-wrap,pthread_create
+Libs.private: 
+Cflags: -I${includedir}
