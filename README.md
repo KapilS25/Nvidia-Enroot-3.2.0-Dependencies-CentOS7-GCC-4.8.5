@@ -38,4 +38,4 @@ cat /proc/sys/user/max_mnt_namespaces
 Solution :
 echo 100 > /proc/sys/user/max_user_namespaces
 ```
-###  [CLICK HERE FOR DETAILED ENROOT INSTALLATION AND CONFIGURATION REFERENCE GUIDE](https://supercomputing.iitd.ac.in/publicpdfs/enrootpublicdoc.pdf) ###
+####  [CLICK HERE FOR DETAILED ENROOT INSTALLATION AND CONFIGURATION REFERENCE GUIDE](https://supercomputing.iitd.ac.in/publicpdfs/enrootpublicdoc.pdf) ####
