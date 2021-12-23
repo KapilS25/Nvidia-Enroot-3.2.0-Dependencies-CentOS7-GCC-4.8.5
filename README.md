@@ -25,7 +25,7 @@ This repository contains all the required dependencies (precompiled) for [ENROOT
   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$DEPS/lib
 ```
 
-## IMPORTANT : ##
+## Important : ##
 ```sh
 ERROR : enroot-nsenter: failed to create user namespace: Invalid argument
 
