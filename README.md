@@ -1,6 +1,6 @@
 # NVIDIA ENROOT 3.2.0 DEPENDENCIES FOR CENTOS 7 (GCC 4.8.5) #
 
-This repository contains all the required dependencies for ENROOT to run on CentOS 7 (GCC 4.8.5)
+This repository contains all the required dependencies for [ENROOT](https://github.com/NVIDIA/enroot) to run on CentOS 7 (GCC 4.8.5)
 
 ## Dependencies : ##
   * bmake (20201212) 
