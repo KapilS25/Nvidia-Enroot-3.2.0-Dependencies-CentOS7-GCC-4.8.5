@@ -1,8 +1,9 @@
-Markup : NVIDIA ENROOT 3.2.0 DEPENDENCIES FOR CENTOS 7 (GCC 4.8.5)
+# NVIDIA ENROOT 3.2.0 DEPENDENCIES FOR CENTOS 7 (GCC 4.8.5) #
+# -------------------------------------------------------------------------- #
 
 This repositories contains all the required dependencies for ENROOT to run on CentOS 7 (GCC 4.8.5)
 
-Depndencies :
+## Depndencies : ##
   bmake (20201212)
   fuse-overlayfs  
   gperf (3.1)
