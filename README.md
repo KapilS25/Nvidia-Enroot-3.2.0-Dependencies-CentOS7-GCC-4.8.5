@@ -24,3 +24,18 @@ This repository contains all the required dependencies (precompiled) for [ENROOT
   export INCLUDE=$INCLUDE:$DEPS/include
   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$DEPS/lib
 ```
+
+## IMPORTANT : ##
+```sh
+ERROR : enroot-nsenter: failed to create user namespace: Invalid argument
+
+/proc/sys/user/max_user_namespaces must be greater than 1
+/proc/sys/user/max_mnt_namespaces must be greater than 1
+cat /proc/sys/user/max_user_namespaces
+0
+cat /proc/sys/user/max_mnt_namespaces
+25543
+Solution :
+echo 100 > /proc/sys/user/max_user_namespaces
+```
+##  [A DETAILED ENROOT INSTALLTION AND CONFIGURATION GUIDE CAN BE FOUND HERE](https://supercomputing.iitd.ac.in/publicpdfs/enrootpublicdoc.pdf) ## 
