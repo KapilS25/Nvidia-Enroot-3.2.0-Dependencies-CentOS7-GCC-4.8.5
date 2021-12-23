@@ -19,7 +19,9 @@ This repositories contains all the required dependencies for ENROOT to run on Ce
   * terraform (0.14.3)
 
 ## Environment Setup : ##
+```sh
   export DEPS=<path to the directory where repository is cloned>
   export PATH=$PATH:$DEPS/bin
   export INCLUDE=$INCLUDE:$DEPS/include
   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$DEPS/lib
+```
